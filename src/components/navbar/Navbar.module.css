@@ -1,0 +1,27 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  background-color: var(--primary-background);
+  z-index: 100;
+  padding: 1rem;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: var(--primary-text-font);
+  font-weight: 700;
+}
+
+.link:hover {
+  color: var(--text-hover-color);
+  transform: scale(1.03);
+}

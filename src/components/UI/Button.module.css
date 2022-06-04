@@ -1,0 +1,25 @@
+.btn {
+  width: 12rem;
+  height: 3rem;
+  font-size: 17px;
+  background-color: var(--seconday-background);
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 10px;
+  font-family: var(--seconday-text-font);
+  color: var(--text-color);
+  cursor: pointer;
+}
+.color {
+  background-color: #ff6a5b;
+  border: 2px solid #ff6a5b;
+}
+
+.btn:hover {
+  border: 2px solid #ff6a5b;
+}
+
+.color:hover {
+  background-color: #e8a49d;
+  color: black;
+}

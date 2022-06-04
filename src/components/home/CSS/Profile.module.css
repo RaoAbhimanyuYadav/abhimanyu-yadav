@@ -1,0 +1,22 @@
+.profile {
+  position: relative;
+  top: 4rem;
+  width: 100%;
+  padding: 50px 0 0 0;
+  background-color: var(--secondary-background);
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  color: var(--text-color);
+}
+
+.pic-container {
+  max-width: 300px;
+
+  overflow: hidden;
+}
+
+.pic-container > img {
+  width: 100%;
+  border-radius: 50%;
+}

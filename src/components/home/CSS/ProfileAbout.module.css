@@ -1,0 +1,36 @@
+.about {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: var(--text-color);
+  font-family: var(--primary-text-font);
+  text-align: center;
+  padding-top: 60px;
+}
+
+.name {
+  display: block;
+  margin-top: 15px;
+}
+
+.primary-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.primary-text h1 {
+  width: fit-content;
+  font-size: 40px;
+  margin: auto;
+}
+.highlighted-text {
+  font-weight: 800;
+  color: var(--text-highlighted-color);
+}
+
+.role {
+  width: 80%;
+}

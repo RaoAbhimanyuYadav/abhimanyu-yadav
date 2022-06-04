@@ -1,16 +1,14 @@
 import React from "react";
-import "./CSS/Profile.css";
+import classes from "./CSS/Profile.module.css";
 import ProfileAbout from "./ProfileAbout";
-import ProfileLinks from "./ProfileLinks";
-import ProfileDownload from "./ProfileDownload";
+import ProfilePic from "../../assests/ProfilePic.jpeg";
 
 const Profile = () => {
   return (
-    <div className="profile-container">
-      <div className="profile-parent">
-        <ProfileLinks />
-        <ProfileAbout />
-        <ProfileDownload />
+    <div className={classes.profile}>
+      <ProfileAbout />
+      <div className={classes["pic-container"]}>
+        <img src={ProfilePic} alt="Profile Picture" />
       </div>
     </div>
   );
